@@ -175,9 +175,6 @@ img {
 /* Address part CSS end here */
 
 /* Portfolio part CSS start from here */
-#portfolio *{
-
-}
 #portfolio .portfolio-heading {
     width: 800px;
     margin: 0 0 48px;
@@ -198,7 +195,7 @@ img {
 }
 #portfolio .portfolio-heading p {
     color: rgba(7, 2, 17, 0.60);
-    font-family: "Merriweather", serif;
+    font-family: "Inter", sans-serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 32px;
@@ -224,3 +221,69 @@ img {
     border: 3px solid #000;
 }
 /* Portfolio part CSS end here */
+
+/* Newsletter part CSS start from here */
+#newsletter {
+    height: 600px;
+    background: rgba(255, 0, 0, 0.05);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+}
+#newsletter .newsletter-con-main {
+    width: 896px;
+}
+#newsletter .newsletter-con-main .newsletter-text h3 {
+    color: #070211;
+    font-family: "Merriweather", serif;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin: 40px 0 20px;
+}
+#newsletter .newsletter-con-main .newsletter-text p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin: 0 0 40px;
+}
+.newsletter-input-box form {
+    max-width: 648px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.newsletter-input-box form input {
+    height: 72px;
+    width: 438px;
+    border: none;
+    outline: 0;
+    background-color: #FFF;
+    border-radius: 50px 0 0 50px;
+    padding: 0 30px;
+}
+.newsletter-input-box form input::placeholder {
+    color: rgba(7, 2, 17, 0.30);
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+.newsletter-input-box form button {
+    height: 72px;
+    padding: 0 48px;
+    background-color: #000;
+    font-family: "Inter", sans-serif;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    border-radius: 0 50px 50px 0;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+}
+/* Newsletter part CSS end here */
