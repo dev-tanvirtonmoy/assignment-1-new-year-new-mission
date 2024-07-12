@@ -295,7 +295,7 @@ footer {
     background: #070211;
     padding: 120px 0;
 }
-#footer .footer-con {
+footer #footer .footer-con-main .footer-con {
     display: flex;
     align-items: center;
     justify-content: space-between;
