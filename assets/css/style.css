@@ -231,6 +231,7 @@ img {
     align-items: center;
     justify-content: center;
     border-radius: 16px;
+    margin: 80px 0 100px;
 }
 #newsletter .newsletter-con-main {
     width: 896px;
@@ -287,3 +288,65 @@ img {
     cursor: pointer;
 }
 /* Newsletter part CSS end here */
+
+/* Footer part CSS start from here */
+footer {
+    height: 600px;
+    background: #070211;
+    padding: 120px 0;
+}
+#footer .footer-con {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#footer .footer-text {
+    width: 375px;
+}
+#footer .footer-text p {
+    color: #FFF;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+#footer .footer-contact {
+    display: flex;
+    flex-direction: column;
+    padding-right: 134px;
+}
+#footer .footer-contact .footer-link {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+#footer .footer-contact .footer-link p{
+    color: #FFF;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+#footer .footer-social-links {
+    padding: 50px 0;
+}
+#footer .footer-social-links-img {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    padding: 40px 0;
+}
+#footer .footer-con-main .footer-social-links-img hr {
+    color: #000;
+}
+.copyright {
+    display: flex;
+    justify-content: space-between;
+}
+.copyright p {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+}
+/* Footer part CSS end here */
