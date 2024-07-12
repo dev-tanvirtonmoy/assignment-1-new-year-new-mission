@@ -6,8 +6,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "Merriweather", serif;
-    font-family: "Inter", sans-serif, ;
+    /* font-family: "Merriweather", serif;
+    font-family: "Inter", sans-serif; */
 }
 body, html {
     overflow-x: hidden;
@@ -17,6 +17,9 @@ a,a:hover {
 }
 ul,ol,li {
     list-style: none;
+}
+img {
+    vertical-align: middle;
 }
 .container {
     width: 80%;
@@ -56,3 +59,46 @@ ul,ol,li {
     /* line-height: 95px; */
 }
 /* Header part CSS end here */
+
+/* Hot Deals part CSS start from here */
+#hot-deals {
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    max-width: 802.9px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#hot-deals .hot-deals-text h3 {
+    color: #F00;
+    font-size: 88px;
+    font-weight: 700;
+}
+#hot-deals .hot-deals-text p {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 48px 0 16px;
+}
+#hot-deals .hot-deals-text h4 span {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;
+}
+#hot-deals .hot-deals-img img{
+    width: 100%;
+}
+#hot-deals .hot-deals-img {
+    margin-top: 48px;
+}
+/* Hot Deals part CSS end here */
+
+/* Midnight party CSS start from here */
+#midnight {
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../images/Vectorrr.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* Midnight party CSS end here */
