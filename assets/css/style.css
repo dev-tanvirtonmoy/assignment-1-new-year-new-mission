@@ -6,7 +6,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "Inter", sans-serif, "Merriweather", serif;
+    font-family: "Merriweather", serif;
+    font-family: "Inter", sans-serif, ;
 }
 body, html {
     overflow-x: hidden;
@@ -17,4 +18,41 @@ a,a:hover {
 ul,ol,li {
     list-style: none;
 }
+.container {
+    width: 80%;
+    max-width: 1320px;
+    margin: auto;
+}
 /* Universel and Common CSS tags end here */
+
+/* Header part CSS start from here */
+#banner {
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../images/Banner\ Image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Merriweather", serif;
+    margin: 50px 0 0;
+    border-radius: 16px;
+}
+#banner .banner-text {
+    text-align: center;
+    width: 630px;
+}
+#banner .banner-text h2 {
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 400;
+    margin: 0 0 16px;
+}
+#banner .banner-text h1 {
+    color: #FFF;
+    font-size: 72px;
+    font-weight: 900;
+    /* line-height: 95px; */
+}
+/* Header part CSS end here */
